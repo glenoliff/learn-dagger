@@ -1,9 +1,12 @@
-package com.example.glen.learn_dagger;
+package com.example.glen.learn_dagger.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.glen.learn_dagger.R;
+import com.example.glen.learn_dagger.view.LoginView;
+
+public class LoginActivity extends AppCompatActivity implements LoginView {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
