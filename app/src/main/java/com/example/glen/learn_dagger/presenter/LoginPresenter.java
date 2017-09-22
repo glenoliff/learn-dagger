@@ -5,4 +5,5 @@ package com.example.glen.learn_dagger.presenter;
  */
 
 public interface LoginPresenter {
+    void login(String username, String password);
 }
